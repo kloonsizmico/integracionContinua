@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {QueEsIntegracionComponent} from './comssponents/que-es-integracion/que-es-integracion.component';
+import {QueEsIntegracionComponent} from './components/que-es-integracion/que-es-integracion.component';
 
 @NgModule({
   declarations: [
@@ -12,9 +12,9 @@ import {QueEsIntegracionComponent} from './comssponents/que-es-integracion/que-e
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationaaaqsModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
-})sqsqs
+})
 export class AppModule { }
