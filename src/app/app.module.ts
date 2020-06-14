@@ -17,6 +17,4 @@ import {QueEsIntegracionComponent} from './components/que-es-integracion/que-es-
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-
-}
+export class AppModule { }
