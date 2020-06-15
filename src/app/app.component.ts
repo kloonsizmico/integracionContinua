@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'untitled';
+  title = 'Hola malpartido';
 
-  hello() {
-    console.log("Hola parce")
+  hola(){
+    console.log(2+2)
   }
 }
