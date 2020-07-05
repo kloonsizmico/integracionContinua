@@ -8,6 +8,7 @@ before_script:
 
 script:
   - ng build --prod
+  - ng serve
 
 notifications:
   email:
