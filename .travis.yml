@@ -8,6 +8,7 @@ before_script:
 
 script:
   - ng build --prod
+  - npm install -g "@compodoc/compodoc"
   - compodoc -p tsconfig.json -s
 notifications:
   email:
