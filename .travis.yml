@@ -8,7 +8,7 @@ before_script:
 
 script:
   - ng build --prod
-
+  - compodoc -p tsconfig.json -s
 notifications:
   email:
     on_failure: change
